@@ -1,0 +1,20 @@
+#!/bin/sh /etc/rc.common
+
+START=99
+STOP=15
+
+start(){
+	echo "net start"
+	/root/net.sh &
+}
+
+stop(){
+	echo "net stop"
+	killall net.sh
+}
+
+restart(){
+	echo "net restart"
+	killall net.sh
+	/root/net.sh &
+}
