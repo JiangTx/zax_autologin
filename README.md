@@ -24,12 +24,12 @@ service net.service start | stop | restart
 <img src="img/pc-login.png" alt="img" style="zoom:80%;" />
 自助管理登录界面为
 
-<img src="img/self-login.png" alt="img" style="zoom:60%;" />
+<img src="img/self-login.png" alt="img" style="zoom:80%;" />
 
 # 使用报告
 在OpenWRT设备测试通过 LED代码适配京东云一代
 
-京东云一代使用 ShellClash & UA3F 在100Mbps下宽带尚为可用 
+京东云一代使用 ShellClash & [UA3F](https://github.com/SunBK201/UA3F/blob/master/README.md#ua3f) 在100Mbps下宽带尚为可用 
 
 MT7621 的性能已经很吃力了 建议需要跑UA3F(防共享检测)的同学使用性能更好的路由器
 
@@ -54,3 +54,11 @@ MT7621 的性能已经很吃力了 建议需要跑UA3F(防共享检测)的同学
 本脚本并非破解软件，不提供破解功能，无任何入侵和破解行为。
 
 本脚本免费发布并无任何盈利行为，请勿商用。
+
+# 参考项目
+
+[liuzhijie443/xywpojie-zaxsoft](https://github.com/liuzhijie443/xywpojie-zaxsoft) 
+
+[Jin-Cheng-Ming/ZHKU-Connector](https://github.com/Jin-Cheng-Ming/ZHKU-Connector)
+
+[LingMessy/zkNet](https://github.com/LingMessy/zkNet)
