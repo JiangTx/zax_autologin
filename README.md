@@ -25,6 +25,7 @@ service net.service start | stop | restart
 自助管理登录界面为
 
 <img src="img/self-login.png" alt="img" style="zoom:60%;" />
+
 # 使用报告
 在OpenWRT设备测试通过 LED代码适配京东云一代
 
